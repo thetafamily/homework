@@ -4,7 +4,7 @@ and conditional blocks to make some useful, reusable code! First, let's start by
 which takes a number and prints out that number plus five.
 '''
 
-def plus_five(num):
+def plus_five(x):
     return x + 5
 
 '''
@@ -21,11 +21,11 @@ operators such as < (less than), > (greater than), == (equal) , >= (greater than
 
 def max(x, y):
     if x < y:
-        print(y)
+        return y
     else:
-        print(x)
+        return x
 
-p = plus_5(3)
+p = plus_five(3)
 print(p)
 v = max(3, 11)
 print(v)
