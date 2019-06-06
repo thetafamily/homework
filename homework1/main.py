@@ -20,10 +20,9 @@ p = plus_5(3)
 print(p)
 def max(x, y):
     if x < y:
-        print(y)
+        return y
     else:
-        print(x)
+        return x
+
 v = max(3, 11)
 print(v)
-
-
