@@ -14,3 +14,16 @@ appliances[1] = 'blender'
 print(appliances)
 my_favorite_things['movies'].append('Harry Potter')
 print(my_favorite_things['movies'])
+def plus_5(x):
+    return x + 5
+p = plus_5(3)
+print(p)
+def max(x, y):
+    if x < y:
+        print(y)
+    else:
+        print(x)
+v = max(3, 11)
+print(v)
+
+
