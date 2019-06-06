@@ -29,3 +29,20 @@ p = plus_five(3)
 print(p)
 v = max(3, 11)
 print(v)
+l = [1,2,3,4,5]
+for x in l:
+    print(x)
+d = {"movies": ["Avengers", "Harry Potter"], "books": ["Harry Potter", "Charlotte's Web"],
+     "sports": ["basketball", "tennis", "swimming"]}
+
+for k, v in d.items():
+    print("My favorite {}: {}".format(k, v))
+
+i = 0
+while i < 10:
+    print(plus_five(i))
+    i = i + 1
+
+
+
+
