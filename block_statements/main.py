@@ -5,7 +5,7 @@ which takes a number and prints out that number plus five.
 '''
 
 def plus_five(num):
-    print("YOUR WORK HERE")
+    return x + 5
 
 '''
 Once you've done that, call your function a few times and check your work. Calling plus_five with an argument of 5,
@@ -20,6 +20,12 @@ operators such as < (less than), > (greater than), == (equal) , >= (greater than
 '''
 
 def max(x, y):
-    print("YOUR WORK HERE")
+    if x < y:
+        print(y)
+    else:
+        print(x)
 
-
+p = plus_5(3)
+print(p)
+v = max(3, 11)
+print(v)
